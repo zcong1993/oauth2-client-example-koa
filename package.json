@@ -1,0 +1,32 @@
+{
+  "name": "oauth-koa2",
+  "description": "my koa2 project",
+  "repository": {
+    "url": "zcong1993/oauth-koa2",
+    "type": "git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "autod": "autod"
+  },
+  "author": "zcong1993 <1005997919@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compose": "^4.0.0",
+    "koa-logger": "^3.0.0",
+    "koa-onerror": "^3.1.0",
+    "koa-router": "^7.2.0",
+    "koa-session": "^5.0.0",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.2",
+    "pug": "^2.0.0-rc.1"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "dotenv": "^4.0.0"
+  }
+}
