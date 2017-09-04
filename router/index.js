@@ -58,6 +58,7 @@ router.get('/auth/callback', async ctx => {
     })
     // now you get user profile
     ctx.session.user = profileResp.data
+    // do your own login logic here
     return ctx.redirect('/secret')
   } catch (err) {
     return ctx.redirect('/')
