@@ -1,6 +1,6 @@
 {
   "name": "oauth-koa2",
-  "description": "my koa2 project",
+  "description": "oauth2 client example by koa2 without passport",
   "repository": {
     "url": "zcong1993/oauth-koa2",
     "type": "git"
